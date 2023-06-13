@@ -1,0 +1,2 @@
+#!/bin/bash
+STELLA="STELLA $hello user"
