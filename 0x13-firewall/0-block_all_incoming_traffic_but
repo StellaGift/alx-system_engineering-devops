@@ -1,3 +1,4 @@
+ssh ubuntu@54.237.48.69 'bash -s' <<'EOF'
 #!/usr/bin/env bash
 # Configures a ufw firewall to block all incoming traffic
 #+ except for TCP ports 22, 443, and 80.
@@ -32,4 +33,5 @@ ufw reload
 
 # Display UFW status
 ufw status verbose
+EOF
 
